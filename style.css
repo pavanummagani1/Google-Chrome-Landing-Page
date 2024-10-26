@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+}
+.icon-container{
+    font-size: 20px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+.icons{
+    font-size: 1.2em;
+    /* background-color: #d0d5dc; */
+    padding: 10px;
+}
+.icon-container>.icons:hover{
+    background-color: #d0d5dc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.icon-container>p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* .logo-container{
+    position: relative;
+} */
+.logo{
+    background-image: url('./google_logo.svg');
+    background-size: auto;
+    height: 92px;
+    width: 272px;
+    margin: 4em;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+.searchbar{
+    width: 60vw;
+    height: 3.5em;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 5px 5;
+}
+.searchbar::placeholder{
+    /* padding: 20px;
+    color: red; */
+    text-align: center;
+}
+main{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+    /* color: #fff; */
+    /* background-color: burlywood; */
+    /* border-radius: 50%;
+    background-color: black;
+    border-top-color: red;
+    border-left-color: blue;
+    border-right-color: green;
+    border-bottom-color: yellow; */
