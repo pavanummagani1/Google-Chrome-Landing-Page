@@ -115,3 +115,16 @@ footer{
 .pencil{
     margin-right: 4px;
 }
+
+@media screen and (width<=550px) {
+    #icon{
+        display: none;
+    }
+    .icon-container{
+        align-items: center;
+    }
+    .searchbar{
+        width: 80vw;
+    }
+    
+}
