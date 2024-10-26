@@ -1,35 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Chrome_Homepage</title>
 </head>
+
 <body>
+
     <header>
         <div class="icon-container">
-            <p>Gmail</p>
-            <p>Images</p>
-            <span class="icons"><i class="fa-solid fa-flask"></i></span>
-            <span class="icons"><i class="fa-solid fa-grip"></i></span>
-            <span><i class="fa-regular fa-user"></i></span>
+            <span class="text">Gmail</span>
+            <span class="text">Images</span>
+            <span class="icons"><ion-icon name="flask-outline"></ion-icon></span>
+            <span class="icons"><ion-icon name="apps-outline"></ion-icon></span>
+            <span class="icons"><ion-icon name="person-circle-outline"></ion-icon></span>
         </div>
     </header>
-    <main>
-        <!-- logo -->
-        <div class="logo-contianer">
-            <div class="logo"></div>
-        </div>
-        <!-- search -->
-         <div class="search-container">
-            <input class="searchbar" type="text" placeholder="Search Google or type a URL">
-         </div>
-         <!-- Shortcut Icon -->
-          <div>
 
-          </div>
+    <!--MAIN-->
+    <main>
+        <!-- Logo -->
+        <div class="logo"></div>
+
+        <!-- Search bar -->
+        <div class="search-container">
+            <div class="searchbar">
+                <img src="./magnifying-glass-solid.svg" alt="" class="icon search">
+                <input type="text" placeholder="Search Google or Type a URL">
+                <img src="./mic.svg" alt="" class="icon mic">
+                <img src="./camera.svg" alt="" class="icon camera">
+            </div>
+        </div>
+
+        <!-- ADD Shortcut Icon -->
+        <div class="shortcut-icon">
+            <img src="./add.svg" alt="" class="add-icon">
+            <p>Add Shortcut</p>
+        </div>
     </main>
-    <script src="https://kit.fontawesome.com/d06933270a.js" crossorigin="anonymous"></script>
+
+    <!-- Custom -->
+    <footer>
+        <div class="customise">
+            <span><ion-icon name="pencil-outline" class="pencil"></ion-icon>Customise Chrome</span>
+        </div>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
